@@ -1,0 +1,11 @@
+{
+  "name": "grooveshark-nosidebar",
+  "version": "1.2",
+  "description": "Blocks the annoying ad in grooveshark",
+  "content_scripts": [
+    {
+	  "matches": ["http://listen.grooveshark.com/*"],
+	  "css": ["nosidebar.css"]
+	}
+  ]
+}
